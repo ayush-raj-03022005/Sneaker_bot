@@ -48,7 +48,7 @@ with st.sidebar:
 # Main interface
 st.title("👟 AI Sneaker Release Tracker")
 st.caption("Never miss a drop with real-time updates on limited editions and exclusive releases")
-st.caption("Ayush Raj||Shokendra Singh| Marouf Wani ")
+st.caption("Ayush Raj || Shokendra Singh | Marouf Wani ")
 # Display chat history
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
